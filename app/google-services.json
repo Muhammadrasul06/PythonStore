@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678192875160",
+    "project_id": "pythonshop-e4d20",
+    "storage_bucket": "pythonshop-e4d20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678192875160:android:e4942232048502a49732ed",
+        "android_client_info": {
+          "package_name": "com.example.pythonstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678192875160-7pu4e2tphg7bimvve2egvrb1ne1jc2e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6c98PQQwlFdYcatrFe1Gxl9cdj9hnxAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678192875160-7pu4e2tphg7bimvve2egvrb1ne1jc2e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

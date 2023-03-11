@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.pythonstore.ui.BottomAppBar.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_Earn"
+        android:name="com.example.pythonstore.ui.BottomAppBar.EarnFragment"
+        android:label="fragment_earn"
+        tools:layout="@layout/fragment_earn" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.pythonstore.ui.BottomAppBar.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.pythonstore.ui.BottomAppBar.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <activity
+        android:id="@+id/forgotPasswordActivity"
+        android:name="com.example.pythonstore.Login.ForgotPassword.ForgotPasswordActivity"
+        android:label="activity_forgot_password"
+        tools:layout="@layout/activity_forgot_password" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.pythonstore.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.pythonstore.Login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/newPasswordActivity"
+        android:name="com.example.pythonstore.Login.ForgotPassword.NewPasswordActivity"
+        android:label="activity_new_password"
+        tools:layout="@layout/activity_new_password" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.pythonstore.Login.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/verifyActivity"
+        android:name="com.example.pythonstore.Login.VerifyActivity"
+        android:label="activity_verify"
+        tools:layout="@layout/activity_verify" />
+</navigation>

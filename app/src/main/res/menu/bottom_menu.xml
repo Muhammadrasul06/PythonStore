@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Главный" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:title="Поиск" />
+    <item
+        android:id="@+id/placeholder"
+        android:title=""
+        android:checked="false"/>
+    <item
+        android:id="@+id/navigation_Earn"
+        android:icon="@drawable/ic_earn"
+        android:title="Заработок" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_user"
+        android:title="Профиль" />
+</menu>
